@@ -1,8 +1,8 @@
 import numbers
 
 
-class CalculatorError(Exception):
-    """For calculator errors"""
+class CalculatorError(Exception):  #Inheritance. We're taking the exeptiona nd we're making our own custom exception.
+    """An exception class for calculator errors"""
 
 
 class Calculator:
